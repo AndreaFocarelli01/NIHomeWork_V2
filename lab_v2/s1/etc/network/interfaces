@@ -1,0 +1,4 @@
+#s1-r6 Collision N
+auto eth0
+iface eth0 inet static
+    address 192.168.0.100/24

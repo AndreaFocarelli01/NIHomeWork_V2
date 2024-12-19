@@ -1,0 +1,19 @@
+#r5-r4 Collision I
+auto eth0
+iface eth0 inet static
+    address 193.201.28.254/23
+
+#r5-r6 Collision L
+auto eth1
+iface eth1 inet static
+    address 200.0.0.0/31
+
+#r5-r7 Collision A
+auto eth2
+iface eth2 inet static
+    address 200.0.0.8/31
+
+#r5-r6 Collision M
+auto eth3
+iface eth3 inet static
+    address 200.0.0.6/31

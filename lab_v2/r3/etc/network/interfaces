@@ -1,0 +1,9 @@
+#r3-r1 Collision F
+auto eth0
+iface eth0 inet static
+    address 100.0.0.3/31
+
+#r3-r4 Collision G
+auto eth1
+iface eth1 inet static
+    address 100.0.0.6/31

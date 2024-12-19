@@ -1,0 +1,9 @@
+#r9-r7 Collision Q
+auto eth0
+iface eth0 inet static
+    address 150.0.1.1/31
+
+#r9-pc2-s2 Collision R
+auto eth1
+iface eth1 inet static
+    address 150.0.0.1/24
